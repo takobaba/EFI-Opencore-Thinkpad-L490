@@ -5,12 +5,11 @@
   - 512 GB NVMe Intel
   - 1920 x 1080 screen
 
-Opencore 0.7.6
+Opencore 0.7.8
 
-Big Sur 11.6
+Big Sur 11.6.4
 
-ACPIs are copied from @twislyn L490 repo, will review them one by one and patch it myself
-
+ACPIs are copied from @twislyn L490 repo and merged
 
 Works:
 
@@ -21,7 +20,7 @@ Works:
 * Bluetooth
 * Trackpad
 
-
 Doesn't Work:
 
 * Fn + F[7-12] doesnt work
+* Bluetooth [it is able to see devices but not able to connect anything]
