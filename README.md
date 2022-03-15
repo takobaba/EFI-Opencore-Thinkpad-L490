@@ -5,11 +5,13 @@
   - 512 GB NVMe Intel
   - 1920 x 1080 screen
 
-Opencore 0.7.8
+Opencore 0.7.9
 
 Big Sur 11.6.4
 
 ACPIs are copied from @twislyn L490 repo and merged
+
+Replaced the intel WiFi card with Broadcom
 
 Works:
 
@@ -23,4 +25,3 @@ Works:
 Doesn't Work:
 
 * Fn + F[7-12] doesnt work
-* Bluetooth [it is able to see devices but not able to connect anything]
