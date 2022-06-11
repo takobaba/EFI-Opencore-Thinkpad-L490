@@ -5,9 +5,9 @@
   - 512 GB NVMe Intel
   - 1920 x 1080 screen
 
-Opencore 0.7.9
+Opencore 0.8.1
 
-Big Sur 11.6.4
+Monterey 12.4
 
 ACPIs are copied from @twislyn L490 repo and merged
 
