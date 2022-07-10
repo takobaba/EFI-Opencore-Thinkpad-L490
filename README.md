@@ -1,11 +1,11 @@
-# Thinkpad L490 Hackintosh Project
+# Thinkpad L490 Hackintosh Opencore
 
   - i7 8565U
   - 16 GB RAM 2400 MHz
   - 512 GB NVMe Intel
   - 1920 x 1080 screen
 
-Opencore 0.8.1
+Opencore 0.8.2
 
 Monterey 12.4
 
