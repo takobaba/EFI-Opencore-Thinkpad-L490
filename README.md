@@ -1,0 +1,34 @@
+# Thinkpad L490 Hackintosh Opencore
+
+## Specs:
+  - CPU: Intel i7-8565U (8) @ 1.80GHz
+  - GPU: Intel UHD Graphics 620
+  - Memory: 24 GB - 2400 MHz
+  - 512 GB NVMe Intel
+  - 1920 x 1080 screen
+
+### Opencore 0.9.3
+
+### macOS Ventura 13.4
+
+#### GPU Memory(UnifiedMem) -> 2048 MB
+
+## Works:
+
+  * Battery readings
+  * HDMI output up to 2 screens
+  * Audio
+  * FN Sound/Brightness shortcuts
+  * Wifi & Bluetooth - Replaced WiFi card with BroadCom
+  * Trackpad - All the gestures
+  * Card Reader
+
+## Doesn't Work:
+
+  * Fn + F[7-12] doesnt work
+
+## Note: 
+
+  * ACPIs are copied from https://github.com/tylernguyen/x1c6-hackintosh
+  * CFG Lock, seems locked but Kernel->Quirks CFG locks are disabled and it works
+  * https://browser.geekbench.com/v5/cpu/20178132
