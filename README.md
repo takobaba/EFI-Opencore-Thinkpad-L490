@@ -1,9 +1,11 @@
-# Thinkpad L490 Hackintosh Opencore
+# EFI for Thinkpad L490 Hackintosh Opencore
+
+![image](https://github.com/takobaba/EFI-Opencore-Thinkpad-L490/assets/3728072/1a847741-5da1-46be-b67f-658dfa5ff2ca)
 
 ## Specs:
   - CPU: Intel i7-8565U (8) @ 1.80GHz
   - GPU: Intel UHD Graphics 620
-  - Memory: 24 GB - 2400 MHz
+  - Memory: 32 GB - 2400 MHz
   - 512 GB NVMe Intel
   - 1920 x 1080 screen
 
