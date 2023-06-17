@@ -31,4 +31,4 @@
 
   * ACPIs are copied from https://github.com/tylernguyen/x1c6-hackintosh
   * CFG Lock, seems locked but Kernel->Quirks CFG locks are disabled and it works
-  * https://browser.geekbench.com/v5/cpu/20178132
+  * [GeekBench 6 Score](https://browser.geekbench.com/v6/cpu/1577874)
