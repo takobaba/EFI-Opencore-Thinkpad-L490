@@ -21,7 +21,7 @@
   * HDMI output up to 2 screens
   * Audio
   * FN Sound/Brightness shortcuts
-  * Wifi & Bluetooth - Replaced WiFi card with BroadCom
+  * Wifi & Bluetooth - BroadCom BCM94360NG
   * Trackpad - All the gestures
   * Card Reader
 
