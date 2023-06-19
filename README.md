@@ -4,7 +4,7 @@
 
 ## Specs:
   - CPU: Intel i7-8565U (8) @ 1.80GHz
-  - GPU: Intel UHD Graphics 620
+  - GPU: Intel UHD Graphics 620 - 2048 MB
   - Memory: 32 GB - 2400 MHz
   - 512 GB NVMe Intel
   - 1920 x 1080 screen
@@ -13,15 +13,13 @@
 
 ### macOS Ventura 13.4
 
-#### GPU Memory(UnifiedMem) -> 2048 MB
-
 ## Works:
 
-  * Battery readings
-  * HDMI output up to 2 screens
+  * Battery
+  * HDMI - up to 2 Screen
   * Audio
   * FN Sound/Brightness shortcuts
-  * Wifi & Bluetooth - BroadCom BCM94360NG
+  * WiFi & Bluetooth - BroadCom BCM94360NG
   * Trackpad - All the gestures
   * Card Reader
 
