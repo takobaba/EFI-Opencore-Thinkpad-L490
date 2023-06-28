@@ -1,6 +1,6 @@
 # EFI for Thinkpad L490 - Hackintosh - Opencore
 ## Opencore 0.9.3
-## macOS Ventura 13.4
+## macOS Ventura 13.4.1
 
 ![image](https://github.com/takobaba/EFI-Opencore-Thinkpad-L490/assets/3728072/1a847741-5da1-46be-b67f-658dfa5ff2ca)
 
@@ -15,12 +15,12 @@
 ## Works:
 
   * Battery
-  * HDMI - up to 2 Screen
-  * Audio
-  * FN Sound/Brightness shortcuts
+  * Audio - ALC257
+  * HDMI - 2 Screens with dock/adapter
+  * FN keys - Sound/Brightness shortcuts
   * WiFi & Bluetooth - BroadCom BCM94360NG
-  * Trackpad - All the gestures
-  * Card Reader
+  * Trackpad - All gestures
+  * SD Card Reader - Realtek RTS522A PCI Express Card Reader
 
 ## Doesn't Work:
 
