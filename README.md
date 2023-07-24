@@ -1,6 +1,6 @@
 # EFI for Thinkpad L490 - Hackintosh - Opencore
 ## Opencore 0.9.3
-## macOS Ventura 13.4.1
+## macOS Ventura 13.4.1 (c)
 
 ![image](https://github.com/takobaba/EFI-Opencore-Thinkpad-L490/assets/3728072/1a847741-5da1-46be-b67f-658dfa5ff2ca)
 
@@ -15,7 +15,7 @@
 ## Works:
 
   * Battery
-  * Audio - ALC257
+  * Audio - ALC257 ? Not entirely sure as audio just worked
   * HDMI - 2 Screens with dock/adapter
   * FN keys - Sound/Brightness shortcuts
   * WiFi & Bluetooth - BroadCom BCM94360NG
@@ -28,6 +28,8 @@
 
 ## Note: 
 
+  * Recently fixed the USBs, 
+    - now all ports are working. Removed the XHC ACPI patch and patched using RHUB on Dortania guide - Fixin USB section
   * ACPIs are copied from https://github.com/tylernguyen/x1c6-hackintosh
   * CFG Lock, seems locked but Kernel->Quirks CFG locks are disabled and it works
   * [GeekBench 6 Score](https://browser.geekbench.com/v6/cpu/1577874)
