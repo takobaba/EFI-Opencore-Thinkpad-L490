@@ -80,14 +80,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-XHC</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-XHC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>SSDT-YOGASMC</string>
                     <key>Enabled</key>
                     <true/>
@@ -125,6 +117,14 @@
                     <true/>
                     <key>Path</key>
                     <string>SSDT-Thinkpad_Clickpad.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-RHUB.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -1452,60 +1452,6 @@
                     <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooInput</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BlueToolFixup.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.7</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BlueToolFixup</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BrcmBluetoothInjector.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.7</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BrcmFirmwareData.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.7</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BrcmFirmwareData</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
