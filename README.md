@@ -1,4 +1,4 @@
-# EFI for Thinkpad L490 - Hackintosh - Opencore
+# EFI for Thinkpad L490 - Opencore
 ## Opencore 0.9.6
 ## macOS Ventura 14.1.1 (c)
 
@@ -9,8 +9,8 @@
   - CPU: Intel i7-8565U (8) @ 1.80GHz
   - GPU: Intel UHD Graphics 620 @ 2048 MB
   - Memory: 32 GB @ 2400 MHz
-  - 512 GB NVMe Intel
-  - 1920 x 1080 screen
+  - 512 GB NVMe Intel SSD
+  - 1920 x 1080 Screen Reso
 
 ## Works:
 
