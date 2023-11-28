@@ -31,7 +31,13 @@
   * Recently fixed the USBs, 
     - now all ports are working. Removed the XHC ACPI patch and patched using RHUB on Dortania guide - Fixin USB section
   * ACPIs are copied from https://github.com/tylernguyen/x1c6-hackintosh
-  * CFG Lock, seems locked but Kernel->Quirks CFG locks are disabled and it works
   * [GeekBench 6 Score - Ventura](https://browser.geekbench.com/v6/cpu/1577874)
   * [GeekBench 6 Score - Sonoma](https://browser.geekbench.com/v6/cpu/3462263)
   * OCLP WiFi Fix due to Sonoma Broadcom Changes
+  * CFG Lock, seems locked but Kernel->Quirks CFG locks are disabled and it works
+    * 0x3E - Write Protected CFG Lock - CpuSetup
+  * DVMT
+    * 0xEE, DVMT Pre-Allocated 
+      - Set to 64MB
+    * 0xEF, DVMT Total Gfx Mem 
+      - Set to 256MB
