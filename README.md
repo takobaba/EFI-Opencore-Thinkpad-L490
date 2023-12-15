@@ -1,6 +1,6 @@
 # EFI for Thinkpad L490 - Opencore
-## Opencore 0.9.6
-## macOS Ventura 14.1.1 (c)
+## Opencore 0.9.7
+## macOS Ventura 14.2 (c)
 
 ![image](https://github.com/takobaba/EFI-Opencore-Thinkpad-L490/assets/3728072/1a847741-5da1-46be-b67f-658dfa5ff2ca)
 
@@ -14,13 +14,17 @@
 
 ## Works:
 
-  * Battery
+  * Battery readings
   * Audio - ALC257 ? Not entirely sure as audio just worked
   * HDMI - 2 Screens with dock/adapter
   * FN keys - Sound/Brightness shortcuts
   * WiFi & Bluetooth - BroadCom BCM94360NG 
   * Trackpad - All gestures
   * SD Card Reader - Realtek RTS522A PCI Express Card Reader
+  * Slow responses on Terminal is fixed:
+    - LapicKernelPanic --> Disabled
+    - DisableWatchDog --> Disabled
+    - ScanPolicy --> 0
 
 ## Doesn't Work:
 

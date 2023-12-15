@@ -838,16 +838,18 @@
                     <key>AAPL,GfxYTile</key>
                     <data>AQAAAA==</data>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AACbPg==</data>
+                    <data>CQClPg==</data>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,2,0</string>
                     <key>device-id</key>
-                    <data>mz4AAA==</data>
+                    <data>pT4AAA==</data>
                     <key>device_type</key>
                     <string>VGA compatible controller</string>
                     <key>disable-external-gpu</key>
                     <data>AQAAAA==</data>
                     <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-lspcon-support</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-con0-enable</key>
                     <data>AQAAAA==</data>
@@ -855,9 +857,17 @@
                     <data>AQAAAA==</data>
                     <key>framebuffer-con1-enable</key>
                     <data>AQAAAA==</data>
+                    <key>framebuffer-con1-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-preferred-lspcon-mode</key>
+                    <data>AQAAAA==</data>
                     <key>framebuffer-con1-type</key>
                     <data>AAgAAA==</data>
                     <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-preferred-lspcon-mode</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-fbmem</key>
                     <data>AACQAA==</data>
@@ -870,7 +880,7 @@
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>model</key>
-                    <string>Intel HD Graphics 620</string>
+                    <string>Intel UHD Graphics 620</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -1071,7 +1081,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.7 | AppleALC.kext</string>
+                    <string>V1.8.8 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1977,7 +1987,7 @@
                 <key>IncreasePciBarSize</key>
                 <false/>
                 <key>LapicKernelPanic</key>
-                <true/>
+                <false/>
                 <key>LegacyCommpage</key>
                 <false/>
                 <key>PanicNoKextDump</key>
@@ -2049,11 +2059,11 @@
                 <key>ApplePanic</key>
                 <false/>
                 <key>DisableWatchDog</key>
-                <true/>
+                <false/>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
-                <integer>2147483650</integer>
+                <integer>0</integer>
                 <key>LogModules</key>
                 <string>*</string>
                 <key>SysReport</key>
@@ -2086,7 +2096,7 @@
                 <key>PasswordSalt</key>
                 <data></data>
                 <key>ScanPolicy</key>
-                <integer>19857667</integer>
+                <integer>0</integer>
                 <key>SecureBootModel</key>
                 <string>Disabled</string>
                 <key>Vault</key>
@@ -2414,6 +2424,28 @@
                     <key>TextMode</key>
                     <false/>
                 </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Auxiliary</key>
+                    <false/>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Flavour</key>
+                    <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <true/>
+                    <key>Name</key>
+                    <string>VerifyMsrE2</string>
+                    <key>Path</key>
+                    <string>VerifyMsrE2.efi</string>
+                    <key>RealPath</key>
+                    <true/>
+                    <key>TextMode</key>
+                    <true/>
+                </dict>
             </array>
         </dict>
         <key>NVRAM</key>
@@ -2437,7 +2469,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>rtcfx_exclude=80-AB agdpmod=vit9696 revpatch=sbvmm -amfipassbeta</string>
+                    <string>rtcfx_exclude=80-AB revpatch=sbvmm -amfipassbeta agdpmod=vit9696</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
