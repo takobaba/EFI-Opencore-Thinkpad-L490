@@ -1,6 +1,6 @@
 # EFI for Thinkpad L490 - Opencore
 ## Opencore 0.9.7
-## macOS Ventura 14.2 (c)
+## macOS Ventura 14.2.1 (c)
 
 ![image](https://github.com/takobaba/EFI-Opencore-Thinkpad-L490/assets/3728072/1a847741-5da1-46be-b67f-658dfa5ff2ca)
 
