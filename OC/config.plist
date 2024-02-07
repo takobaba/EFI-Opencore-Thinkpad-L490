@@ -1137,7 +1137,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.8 | AppleALC.kext</string>
+                    <string>V1.8.9 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1625,7 +1625,7 @@
                     <key>Comment</key>
                     <string>V2.6.8</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
@@ -1643,7 +1643,7 @@
                     <key>Comment</key>
                     <string>V2.6.8</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmFirmwareData</string>
                     <key>MaxKernel</key>
@@ -1661,7 +1661,7 @@
                     <key>Comment</key>
                     <string>V2.6.8</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmPatchRAM3</string>
                     <key>MaxKernel</key>
