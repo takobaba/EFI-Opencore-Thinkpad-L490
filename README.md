@@ -12,7 +12,7 @@
   - **Disk:** 512 GB NVMe Intel SSD
   - **Screen Resolution:** 1920 x 1080
   - **BIOS:** 1.35 - 22 Jan 2024
-  - **WiFi:** Broadcom BCM94360NG
+  - **WiFi:** Intel® Wireless-AC 9560
   - **Audio:** ALC257
   - **SMBIOS:** MacbookPro15,4
 
@@ -22,12 +22,12 @@
   * HDMI output up to 2 screens
   * Audio
   * FN Sound/Brightness shortcuts
-  * WiFi & Bluetooth - BroadCom BCM94360NG 
+  * WiFi & Bluetooth 
   * Trackpad
   * SD Card Reader - Realtek RTS522A PCI Express Card Reader
 
 ## Doesn't Work:
-  - 
+  - Airdrop
 
 ## Note: 
 
