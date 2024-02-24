@@ -22,7 +22,8 @@
   * HDMI output up to 2 screens
   * Audio
   * FN Sound/Brightness shortcuts
-  * WiFi & Bluetooth 
+  * WiFi 
+  * Bluetooth 
   * Trackpad
   * SD Card Reader - Realtek RTS522A PCI Express Card Reader
 
