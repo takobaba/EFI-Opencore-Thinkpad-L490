@@ -1,4 +1,5 @@
 # EFI for Thinkpad L490 - Opencore
+## SOLD THIS LAPTOP
 ## Opencore 0.9.8
 ## macOS Sonoma 14.2.1 (c)
 
